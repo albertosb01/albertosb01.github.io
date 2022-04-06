@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Audiovisuales S.L.</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+        <!--MENU CABECERA-->
+
+<body>
+    <header>
+        <img id="logo" src="img/logosonido.png" />
+
+        <nav>
+            <h1 id="título">Audiovisuales S.L.</h1>
+            <div class="cabecera">
+                <ul>
+                    <li><a id="lista" href="web.html">Página principal</a></li>
+                    <li><a id="lista" href="galeriafotos.html">¿Quiénes somos?</a></li>
+                    <li><a id="lista" href="tabla.html">Productos</a></li>
+                    <li><a id="lista" href="servicios.html">Servicios</a></li>
+                    <li><a id="lista" href="formulario.html">Contactos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+
+        <br>
+        <br>
+
+         <!---FORMULARIO-->
+        <form action="proceso.php" method="get">
+       
+            <fieldset id="datos">
+
+                <h2 id="título2">TRABAJA CON NOSOTROS</h2>
+                <p>Nombre: <input type="text" name="nombre" size="45" placeholder="Nombre"></p>
+                <p>Apellidos: <input type="text" name="apellidos" size="43" placeholder="Apellidos"></p>
+                <p>DNI: <input type="text" name="DNI" size="49" placeholder="DNI"></p>
+                <p>Sexo:
+                    <select name="sexo">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+                </p>
+                <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento" size="45"
+                        placeholder="Fecha de nacimiento"></p>
+                <p>Ciudad: <input type="text" name="Ciudad" size="47" placeholder="Ciudad"></p>
+                <p>Nacionalidad: <input type="text" name="Nacionalidad" size="41" placeholder="Nacionalidad"></p>
+                <p>Código postal: <input type="text" name="Código postal" size="40" placeholder="Código postal"></p>
+                <p>Teléfono: <input type="text" name="Teléfono" size="46" placeholder="Teléfono"></p>
+                <p>Correo electrónico: <input type="email" name="correo" placeholder="e-mail" size="36"></p>
+                <p>Formación: <input type="text" name="Formación" size="44" placeholder="Formación"></p>
+                <select name="Formación">
+                    <option value="ESO">ESO</option>
+                    <option value="Bachiller">Bachiller</option>
+                    <option value="Formación profesional">Formación profesional</option>
+                    <option value="Diplomatura">Diplomatura</option>
+                    <option value="Licenciatura">Licenciatura</option>
+                </select>
+                <p>Nivel de inglés:
+                    <input type="checkbox" name="checkbox">Hablado
+                    <input type="checkbox" name="checkbox">Leído
+                    <input type="checkbox" name="checkbox">Escrito
+                </p>
+                <select name="Nivel de inglés">
+                    <option value="Excelente">Excelente</option>
+                    <option value="Bien">Bien</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Nada">Nada</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="publicidad">
+                ¿Quieres que te enviemos <b>publicidad?</b>
+                <!--Botón de envio-->
+                <br><br>
+                <input type="submit" value="Enviar">
+        </form>
+        </fieldset>
+
+     <!--CONTACTO Y MAPA-->
+
+        <article id="contacto">
+            <h5>AUDIOVISUALES S.L.<br>
+            CIF: 1111111-J<br>
+            Avenida de Sevilla, Número 3<br>
+            Código postal: 41000<br>
+            Ciudad: Sevilla</h5>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.5340821179475!2d-5.989081684434985!3d37.3771999427057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ea76eb6b10f%3A0x8926f5e874d3da39!2sPlaza%20de%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1649158276276!5m2!1ses!2ses"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+
+        </article>
+
+    </body>
+    <br>
+    <br>
+
+    <!--MENU FOOTER-->
+
+    <footer>
+
+        <div id="foot">
+            También puedes visitarnos en:
+            <a id="enlace" href="https://twitter.com/">Facebook</a> <img id="logotwitter" src="img/facebook.png" with="20px"
+                height="20px" />
+            <a id="enlace" href="https://www.instagram.com/?hl=es">Instagram</a> <img id="logoinsta" src="img/instagram.png"
+                with="20px" height="20px" />
+            <a id="enlace" href="https://es-es.facebook.com/">Twitter</a> <img id="logoface" src="img/tweter.png"
+                with="20px" height="20px" />
+        </div>
+        <div id="copy">Copyright&copy; 2022 - Página creada por Alberto Sánchez Baeza - Todos los derechos reservados <img
+                id="copyright" src="img/copyright.png" with="20px" height="20px" />
+        </div>
+    </footer>
+</html>
