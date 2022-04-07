@@ -169,3 +169,15 @@ footer {
     bottom:0;
     
 }
+
+#foot {
+    position: absolute;
+    padding-left: 170px;
+    display: block;
+    text-align: left;
+}
+
+#copy {
+    text-align: right;
+    padding-right: 120px;
+}
