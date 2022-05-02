@@ -1,0 +1,175 @@
+body {
+    background-image: linear-gradient(#0E1555, #FD367E);
+    
+}
+
+#título {
+    text-align:center;
+    color: rgb(184, 0, 0)
+}
+
+#logo {
+    position: left;
+    width:100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+
+li {
+    float:left;
+    list-style:none;
+    padding-right: 50px;  
+    
+  }
+
+  .cabecera a:hover {
+    background-color: rgb(124, 152, 212);
+    margin-top: 20px;              
+}
+
+nav {
+text-shadow: 3px 3px 3px rgb(151, 127, 140);
+float:right;   
+
+}
+
+#lista {
+color:rgb(81, 4, 116);
+font-family:'Franklin Gothic Medium',  
+}
+
+li:hover a {
+color: rgb(119, 88, 20);
+margin-bottom: 50px;
+text-shadow: gray;
+}
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+background-image: radial-gradient(orange, rgba(255, 0, 0, 0.534));
+border-radius: 20px;
+font-size: 20px;
+}
+
+
+section {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: double;
+    border:solid 2px black;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 30px;
+    background: radial-gradient( #202020);
+    border:solid 20px rgba(0, 0, 0, 0.288); 
+    margin-left:450px;
+    margin-right: 450px;
+    margin-top:20px;
+}
+
+#acercadenosotros {
+    color:rgba(247, 247, 247, 0.738);
+    text-shadow: 3px 3px 3px rgb(158, 81, 123);
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+}
+
+h3 {
+    color:black;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    color:black;
+    text-align: center; 
+    font-size: 20px;
+}
+
+/*FOTOS*/
+
+#imagen1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:350px;
+    margin-left: 30px;
+    border:3px solid darkgreen;
+    transform: rotate(-6deg);
+}
+
+#imagen2 {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border:3px solid darkgreen;
+    transform: rotate(6deg);
+    margin-right: 30px;
+ }
+
+div.galeriafoto {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.galeriafoto img {
+    border-radius: 10px;   
+}
+
+div.galeria.hover{
+    border:1px solid darkgreen;
+    
+}
+
+/*FOOTER*/
+
+#enlace {
+    color:blue;
+}
+
+footer {
+    right:0px;
+    padding:10px;
+    background-color: black;
+    background-position: left;
+    color:white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    z-index: -3;
+}
+
+#foot {
+    position: absolute;
+    padding-left: 170px;
+    display: block;
+    text-align: left;
+}
+
+#copy {
+    text-align: right;
+    padding-right: 120px;
+}
